@@ -1,4 +1,4 @@
-# el-tiempo
+# El tiempo
 Este proyecto muestra el tiempo en los diferentes municipios de España, tras seleccionar una provincia en el listado que se muestra.
 
 # Funcionamiento
