@@ -1,0 +1,150 @@
+*{
+    font-family: Montserrat,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell",sans-serif;    
+}
+body{
+    font-size:1.2em;
+    margin:0;
+    padding:0;
+    background-color:#275280;
+    color:white;
+}
+header, section{
+    width:100%; 
+    padding:10px;
+    box-sizing:border-box;
+}
+
+section{
+    width:80%; 
+    margin:0 auto; 
+}
+
+header, footer{
+    background-color: #1b3959;
+    padding:10px;
+    box-sizing:border-box;
+    text-align:center;
+    font-size:1.5em;
+}
+footer{
+    font-size:0.8em;
+}
+
+div.txt{
+    background:#1E3E61;
+    padding:5px 100px;
+    box-sizing:border-box;
+    margin-bottom:10px;
+}
+
+div.txt > p{
+    text-align:justify;
+}
+
+select, option{
+    background:#3D6289;
+    width:100%;
+    padding:10px;
+    color:white;
+}
+select{
+    font-size:1.4em;
+    text-align-last: center;
+}
+
+option{
+    font-size:1em;
+}
+form{
+    margin:0 auto;
+    width:50%;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
+.municipios{
+    display:flex;
+    flex-direction:row; 
+    justify-content:space-between;
+    width:80%;
+    margin:0 auto;
+    flex-wrap:wrap;
+}
+.municipio{
+    display:flex;
+    flex-direction:column;
+    border:1px grey solid;
+    padding:10px;
+    box-sizing:border-box;
+    margin:10px;
+    flex-grow:1;
+    min-width:30%;
+    max-width:30%;
+}
+.nomMunicipio{
+    text-align:center;
+    font-weight:bold;
+}
+
+.descMunicipio{
+    font-style:italic;
+    text-align:center;
+    margin-bottom:10px;
+}
+.temperaturas{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.max, .min{
+    border:1px white solid;
+    width:40%;
+    text-align:center;
+    background:#3D6289;
+    padding:10px;
+    box-sizing:border-box;
+    font-size:1.2em;
+}
+
+div.emoji{
+    font-size:5em;
+    text-align:center;
+    width:100%;
+    text-align:center;
+}
+
+a:link, a:active, a:visited, a:hover{
+    color:white;
+    text-decoration:none;
+}
+
+
+div.botonera{
+    display:flex;
+    flex-direction:row;
+}
+div.hoy, div.manana{
+    padding:10px;
+    box-sizing:border-box;
+    margin-right:20px;
+    border-top:4px #1E3E61 solid;
+    border-left:4px #1E3E61 solid;
+    border-right:4px #1E3E61 solid;
+    cursor:pointer;
+}
+
+div.claro{
+    background-color:#275280;
+}
+div.oscuro{
+    background-color:#1E3E61;
+}
+
+div.txt2{
+    display:none;
+}
+
+div.txt2{
+
+}
